@@ -1,7 +1,5 @@
 
 
-
-
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
@@ -11,9 +9,8 @@ name: Upload Python Package
 
 on:
   push:
-    branches: 
-         -main
-         
+     branches:
+     - main
 
 jobs:
   deploy:
