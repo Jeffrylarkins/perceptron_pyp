@@ -6,17 +6,15 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-
-PROJECT_NAME = 'Perceptron_pyp'
+PROJECT_NAME = "perceptron_pyp"
 USER_NAME = "Jeffrylarkins"
 
-
 setuptools.setup(
-    name="f{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    name=f"{PROJECT_NAME}-{USER_NAME}",
+    version="0.0.2",
     author=USER_NAME,
     author_email="larkinsjeffry71@gmail.com",
-    description="It's an implementation of perceptron",
+    description="its an implimentation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
@@ -33,7 +31,6 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
-        "tqdm",
-        "logging"
+        "tqdm"
     ]
 )
