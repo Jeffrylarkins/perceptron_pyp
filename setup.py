@@ -7,8 +7,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 
-PROJECT_NAME = 'Perceptron_pypi'
-USER_NAME = "JEFFRY"
+PROJECT_NAME = 'Perceptron_pyp'
+USER_NAME = "Jeffrylarkins"
 setuptools.setup(
     name="f{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
